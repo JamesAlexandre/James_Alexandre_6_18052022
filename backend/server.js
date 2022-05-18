@@ -1,5 +1,6 @@
-const https = require("https");
-const app = require('./app')
-const server = https.createServer(app);
+const http = require("http");
+const app = require("./app");
 
-server.listen(process.env.PORT || 3000);
+app.set('port', 3000)
+const server = http.createServer(app);
+server.listen(3000);
