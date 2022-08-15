@@ -6,16 +6,13 @@ secrètes. Pour tirer parti de son succès et générer davantage de buzz, l'ent
 souhaite créer une application web dans laquelle les utilisateurs peuvent ajouter
 leurs sauces préférées et liker ou disliker les sauces ajoutées par les autres.
 
-# Initialiser le projet
+# Démarrer le serveur backend
 
 1. Cloner le repository 
 2. Exécuter **"npm install"** à partir du répertoire du projet
-3. Exécuter **"npm start"**
-4. Le backend doit être exécuté sur le port 3000 exclusivement
+3. Exécuter **"node server"** à partir du répertoire backend
 
-# Démarrer le serveur backend
-
-Exécuter **"node server"** à partir du répertoire backend
+Le backend doit être exécuté sur le port 3000 exclusivement
 
 # Démarrer le serveur frontend
 
